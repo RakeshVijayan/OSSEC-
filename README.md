@@ -116,7 +116,7 @@ The <alert_new_files> entry should look something like this:
 
 ```
 ### To Remove Ossec from the host do the following steps 
-
+```
 /var/ossec/bin/ossec-control stop 
 service ossec-hids stop 
 chkconfig ossec-hids --del 
@@ -126,5 +126,5 @@ rm -f /etc/init.d/*ossec*
 userdel ossecr 
 userdel ossec  
 groupdel ossec
-
+```
 # Adding new host to centralised server will update ...
