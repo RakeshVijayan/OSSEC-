@@ -124,7 +124,7 @@ rm -rf /var/ossec
 rm -f /etc/ossec-init.conf 
 rm -f /etc/init.d/*ossec* 
 userdel ossecr 
-userdel ossec 
+userdel ossec  
 groupdel ossec
 
 # Adding new host to centralised server will update ...
